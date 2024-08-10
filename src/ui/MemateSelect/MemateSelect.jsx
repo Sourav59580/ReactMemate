@@ -30,6 +30,7 @@ const selectStyles = {
       ? colors.primary
       : provided.backgroundColor,
     color: state.isSelected ? "white" : provided.color,
+    cursor: "pointer"
   }),
 };
 
